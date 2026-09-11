@@ -1,18 +1,1 @@
-pull_request_rules:
-  - name: vm2 user authorization positive merge
-    conditions:
-      - author = livastic-vm2-primary-20260911
-      - label = VM2-USERAUTH-POSITIVE
-    actions:
-      merge:
-        method: merge
-        merge_bot_account: livastic-vm2-secondary-20260911
-  - name: vm2 user authorization post revoke merge
-    conditions:
-      - author = livastic-vm2-primary-20260911
-      - label = VM2-USERAUTH-POSTREVOKE
-    actions:
-      merge:
-        method: merge
-        merge_bot_account: livastic-vm2-secondary-20260911
-
+pull_request_rules: []
